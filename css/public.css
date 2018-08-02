@@ -1,0 +1,730 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.all {
+    height: auto;
+}
+
+.nav_all {
+    width: 100%;
+    height: 60px;
+    background: #ffca02;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.all .nav {
+    width: 1342px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.all .nav .logo {
+    width: 112px;
+    height: 32px;
+    float: left;
+    margin-top: 14px;
+}
+
+.all .nav .logo a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.all .nav ul {
+    width: 410px;
+    height: 100%;
+    float: left;
+}
+
+.all .nav ul li {
+    float: left;
+    margin-left: 50px;
+}
+
+.all .nav ul li a {
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    color: #333333;
+    font-style: normal;
+    font-size: 16px;
+    position: relative;
+}
+
+#black {
+    color: #000000;
+    font-weight: 600;
+}
+
+.all .nav ul li a:hover {
+    color: #000000;
+    font-weight: 600;
+}
+
+.all .nav ul li .line {
+    position: absolute;
+    top: 47px;
+    margin-left: 11px;
+    width: 8px;
+    height: 2px;
+    background: #333333;
+}
+
+.all .nav .search {
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-left: 650px;
+    margin-top: 19px;
+}
+
+.all .nav .search img {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+.all .nav .state {
+    float: right;
+    line-height: 60px;
+    font-size: 16px;
+}
+
+.all .nav .state em {
+    font-style: normal;
+    color: #333333;
+}
+
+.all .nav .state i {
+    font-style: normal;
+    color: #000000;
+}
+
+.foot_all {
+    width: 100%;
+    height: 280px;
+    background: #2c2c2c;
+    overflow: hidden;
+}
+
+.foot {
+    width: 1342px;
+    margin: 0 auto;
+    /*padding: 80px 280px;*/
+    margin-top: 80px;
+}
+
+.foot .foot_left {
+    float: left;
+}
+
+.foot .foot_left .foot_logo {
+    width: 110px;
+    height: 32px;
+}
+
+.foot .foot_left .foot_logo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.foot .foot_left ul {
+    margin-top: 28px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.foot .foot_left ul li {
+    float: left;
+    margin-left: 18px;
+}
+
+.foot .foot_left ul li:nth-child(1) {
+    margin-left: 0px;
+}
+
+.foot .foot_left ul li a {
+    width: 100%;
+    height: 100%;
+    color: #999999;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.foot .foot_left ul li span {
+    color: #666666;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.foot em {
+    display: block;
+    text-align: left;
+    font-style: normal;
+    font-size: 12px;
+    color: #999999;
+    margin-top: 3px;
+}
+
+.foot .foot_right {
+    float: right;
+}
+
+.foot .foot_right .foot_title {
+    font-style: normal;
+    font-sizE: 16px;
+    color: #999999;
+    text-align: right;
+}
+
+.foot .foot_right ul {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.foot .foot_right ul li {
+    float: right;
+    margin-right: 30px;
+}
+
+.foot .foot_right ul li a {
+    width: 100%;
+    height: 100%;
+    color: #999999;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.foot .foot_left ul li a:hover {
+    color: #bbbbbb;
+}
+
+.foot .foot_right ul li a:hover {
+    color: #bbbbbb;
+}
+
+.foot .foot_right ul li:nth-child(1) {
+    margin-right: 0;
+}
+
+.foot-right ul:nth-child(2) {
+    margin-top: 20px;
+}
+
+/*input, button, select, textarea {*/
+/*outline: none;*/
+/*-webkit-appearance: none;*/
+/*border-radius: 0;*/
+/*}*/
+
+.hiden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.active {
+    color: #333333;
+}
+
+/*登录*/
+.login {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+
+.login .login_content {
+    width: 420px;
+    height: 515px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 260px;
+    overflow: hidden;
+}
+
+.login .login_content .close_login {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.login .login_content span {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.login .login_content .login_number {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.login .login_content .login_number input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.login .login_content .login_password {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.login .login_content .login_password input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.reorfo {
+    width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.reorfo .re {
+    float: left;
+    font-style: normal;
+    font-size: 12px;
+    color: #999999;
+}
+
+.re input {
+    float: left;
+    margin-top: .15rem;
+}
+
+.re em {
+    display: block;
+    float: left;
+    font-style: normal;
+    font-size: 12px;
+    color: #999999;
+!important;
+}
+
+.reorfo em {
+    display: block;
+    float: right;
+    font-style: normal;
+    font-size: 12px;
+    color: #999999;
+}
+
+.log {
+    width: 300px;
+    height: 44px;
+    background: #ffcc00;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 44px;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 15px;
+    border-radius: 3px;
+}
+
+.login i {
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffcc00;
+    text-align: center;
+    line-height: 56px;
+}
+
+.login ul {
+    display: flex;
+    width: 160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/*忘记密码*/
+.forget_password {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+
+.forget_password .forget {
+    width: 420px;
+    height: 515px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 260px;
+    overflow: hidden;
+}
+
+.close_forget {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.forget_password .forget span {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.forget_password .forget .forget_number {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.forget_password .forget .forget_number input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.forget_password .forget .identi {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.forget_password .forget .identi .for_code {
+    float: left;
+    width: 168px;
+    height: 44px;
+    border: 1px solid #e5e5e5;
+}
+
+.forget_password .forget .identi .for_code input {
+    width: 166px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.forget_password .forget .identi em {
+    display: block;
+    width: 120px;
+    height: 44px;
+    float: right;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 44px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.setnew {
+    margin: 0 auto;
+    width: 300px;
+    height: 44px;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 3px;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+.forget i {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-style: normal;
+    font-size: 14px;
+    color: #999999;
+}
+
+/*重置密码*/
+.reset {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 100;
+}
+
+.reset .reset_password {
+    width: 420px;
+    height: 515px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 260px;
+    overflow: hidden;
+}
+
+.close_reset {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.reset .reset_password span {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.reset .reset_password .new_password {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.reset .reset_password .new_password input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.reset .reset_password .confirm {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.reset .reset_password .confirm input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.ensure {
+    margin: 0 auto;
+    width: 300px;
+    height: 44px;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 3px;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 60px;
+}
+
+/*注册*/
+.register {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: 101;
+}
+
+.register .register_content {
+    width: 420px;
+    height: 515px;
+    background: #ffffff;
+    margin: 0 auto;
+    margin-top: 260px;
+    overflow: hidden;
+}
+
+.close_regis {
+    display: block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+
+.register .register_content span {
+    display: block;
+    margin: 0 auto;
+    font-style: normal;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.register .register_content .register_number {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.register .register_content .register_number input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.register .register_content .register_password {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    box-sizing: border-box;
+}
+
+.register .register_content .register_password input {
+    width: 298px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.identifying {
+    width: 300px;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.identifying .code {
+    width: 168px;
+    height: 44px;
+    border: 1px solid #e5e5e5;
+    float: left;
+}
+
+.identifying .code input {
+    width: 166px;
+    height: 42px;
+    border: 0;
+    outline: none;
+    padding-left: 10px;
+}
+
+.identifying em {
+    display: block;
+    float: right;
+    width: 120px;
+    height: 44px;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 44px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.regis {
+    margin: 0 auto;
+    width: 300px;
+    height: 44px;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 44px;
+    color: #ffffff;
+    font-style: normal;
+    font-size: 16px;
+    border-radius: 3px;
+    margin-top: 50px;
+}
+
+.register i {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: 14px;
+    color: #ffcc00;
+    margin-top: 20px;
+}
+
+
+
+

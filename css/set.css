@@ -1,0 +1,211 @@
+.set_content {
+    padding: 100px 556px;
+    background: #f5f5f5;
+}
+
+.set_content .set {
+    padding: 60px;
+    background: #ffffff;
+}
+
+.set_content .set span {
+    font-style: normal;
+    font-size: 24px;
+    color: #333333;
+}
+
+.set .set_form {
+    margin-top: 40px;
+}
+
+.set em {
+    display: block;
+    float: left;
+    width: 46px;
+    font-style: normal;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.photo {
+    width: 100%;
+    height: 120px;
+}
+
+.p_img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid #f5f5f5;
+    float: left;
+}
+
+.name em {
+    line-height: 40px;
+}
+
+.set .set_form .name input {
+    width: 320px;
+    height: 40px;
+    background: #f5f5f5;
+    border: 0;
+    outline: none;
+    padding: 20px;
+}
+
+.region {
+    margin-top: 24px;
+}
+
+.region em {
+    line-height: 40px;
+}
+
+.region select {
+    width: 320px;
+    height: 40px;
+    background: #f5f5f5;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+}
+
+.ymd {
+    margin-top: 24px;
+}
+
+.ymd em {
+    line-height: 40px;
+}
+
+.ymd select {
+    width: 100px;
+    height: 40px;
+    background: #f5f5f5;
+    border: 0;
+    outline: none;
+    padding: 0 20px;
+}
+
+.submit {
+    width: 120px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 3px;
+    background: #ffcc00;
+    text-align: center;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    outline: none;
+    -webkit-appearance: none;
+    margin-top: 40px;
+}
+
+.set_bind {
+    width: 692px;
+    overflow: hidden;
+    margin-top:20px;
+}
+
+.set_bind li {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    border-bottom:1px solid #f5f5f5;
+}
+.set_bind li:nth-child(3){
+    border:0;
+}
+.set_bind li i {
+    display: block;
+    float: left;
+    font-style: normal;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.set_bind li em {
+    display: block;
+    float: left;
+    font-style: normal;
+    font-size: 14px;
+    color: #333333;
+    margin-left:40px;
+}
+
+.set_bind li a {
+    display: block;
+    float: right;
+    width: 120px;
+    height: 40px;
+    background: #ffcc00;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    font-style: normal;
+    font-size: 14px;
+    margin-top:20px;
+    border-radius:3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
